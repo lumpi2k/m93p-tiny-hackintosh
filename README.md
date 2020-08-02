@@ -23,7 +23,7 @@ Setting up Hackintoshes can be a pain and there is a lot to consider. In this Re
  - Catalina 10.15.4
  - iMessage
  - Airdrop
- - (almost) 4K60 through DP
+ - 4K60 through DP
  - Audio Out
  - Energy Management
  - FileVault
@@ -34,14 +34,14 @@ Setting up Hackintoshes can be a pain and there is a lot to consider. In this Re
 
  This build is still a bit away from being golden. Here are my current issues:
 
- - no 4k60
+ - some glitching in 4k60 with esoteric browsers (Edge Chromium)
  - no fan readout
  - no sleep
- - still a bit shaky energy management (though it could be that the CPU is just busy most of the time since it clocks up and don just fine)
+ - still a bit shaky energy management (though it could be that the CPU is just busy most of the time since it clocks up and down just fine)
 
 
 # Useful Links
-https://dortania.github.io/OpenCore-Desktop-Guide/ - The OpenCore Desktop Guide is the most important bit of info for this build.
+https://dortania.github.io/OpenCore-Install-Guide/ - The OpenCore Desktop Guide is the most important bit of info for this build.
 
 # Tools To Download
 https://github.com/corpnewt/gibMacOS - gibMacOS lets you download MacOS recovery images directly from Apple.
@@ -104,6 +104,6 @@ After you've created the SMBIOS with GenSMBIOS put in the values as described [h
 
 
 
-[1]:https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html
-[2]: https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/haswell.html#platforminfo
-[3]: https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/winblows-install.html
+[1]:https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial
+[2]: https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html
+[3]: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html
