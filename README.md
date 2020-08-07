@@ -20,7 +20,7 @@ Setting up Hackintoshes can be a pain and there is a lot to consider. In this Re
 
  ## What Works
 
- - Catalina 10.15.4
+ - Catalina 10.15.6
  - iMessage
  - Airdrop
  - 4K60 through DP
@@ -28,7 +28,7 @@ Setting up Hackintoshes can be a pain and there is a lot to consider. In this Re
  - Energy Management
  - FileVault
  - App Store
- - Wifi and Bluetooth
+ - Wifi
 
  ## What Doesn't Work
 
@@ -38,6 +38,7 @@ Setting up Hackintoshes can be a pain and there is a lot to consider. In this Re
  - no fan readout
  - no sleep
  - still a bit shaky energy management (though it could be that the CPU is just busy most of the time since it clocks up and down just fine)
+ - Bluetooth with my particular wifi card
 
 
 # Useful Links
@@ -100,10 +101,16 @@ The OpenCore Desktop Guide shows this in it's chapter  [Fixing iServices][1]. **
 
 After you've created the SMBIOS with GenSMBIOS put in the values as described [here in the Desktop Guide][2].
 
+You can then follow [this chapter][4] in the OpenCore Guide to see where all the files have to be placed on your boot drive. If everything looks correct, see [this chapter][5] for info on how to boot and install MacOS. You should be all good after installation.
+
+## Versioning of this Repo
+
+I'll loosely update the OpenCore Version and kexts in this repo. This includes Updates to the config.plist. I'll create tags for every OpenCore Version I use. This will include the most recent kext versions from the time I update my machine myself. Since updating OpenCore is a lot of work and my machine runs fairly stable I won't create a release for every OpenCore version.
 
 
 
-
-[1]:https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial
+[1]: https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial
 [2]: https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html
 [3]: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html
+[4]: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/opencore-efi.html
+[5]: https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#double-checking-your-work
