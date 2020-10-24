@@ -20,7 +20,7 @@ Setting up Hackintoshes can be a pain and there is a lot to consider. In this Re
 
  ## What Works
 
- - Catalina 10.15.6
+ - Catalina 10.15.7
  - iMessage
  - Airdrop
  - 4K60 through DP
@@ -34,7 +34,7 @@ Setting up Hackintoshes can be a pain and there is a lot to consider. In this Re
 
  This build is still a bit away from being golden. Here are my current issues:
 
- - some glitching in 4k60 with esoteric browsers (Edge Chromium)
+ - weird font glitches in Microsoft Product UI (Edge Chromium, Onedrive)
  - no fan readout
  - no sleep
  - still a bit shaky energy management (though it could be that the CPU is just busy most of the time since it clocks up and down just fine)
