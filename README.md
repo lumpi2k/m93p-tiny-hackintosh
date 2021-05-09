@@ -1,3 +1,5 @@
+# The Sun has Set
+After a year of light use I've decided to sunset this project due to the advent of ARM Macs and the fact that I wasn't able to fix one last issue with text rendering in microsoft products at 4k60. Also updating opencore and all the kexts gets very tedious very quickly. I'm putting this repo in read-only mode for documentation purposes.
 # m93p-tiny-hackintosh
 a Repository containing files for turning a Lenovo M93p tiny into a shiny hackintosh
 # Introduction
